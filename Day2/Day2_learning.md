@@ -8,12 +8,9 @@ supports block sizes from 4 KiB up to 1 MiB for greater compression. squashfs' c
 are running. Removing it may be equal to removing your operating system.
 
 ### 2. What are /dev/loop and /dev/tty ?
-**dev/loop*** are loop devices making plain files accessible as block devices. They have nothing to do with RAM 
-occupation. They are typically used for mounting disk images, in your case apparently for Ubuntu Snap. 
+**dev/loop*** are loop devices making plain files accessible as block devices. They have nothing to do with RAM occupation. They are typically used for mounting disk images, in your case apparently for Ubuntu Snap. 
 
-**/dev/tty** stands for the controlling terminal (if any) for the current process (the process that uses "/dev/tty" 
-in a command). To find out which tty's are attached to which processes use the "ps -a" command at the shell prompt
-  (command line). ... For the shell process you're in, /dev/tty is the terminal you are now using.
+**/dev/tty** stands for the controlling terminal (if any) for the current process (the process that uses "/dev/tty" in a command). To find out which tty's are attached to which processes use the "ps -a" command at the shell prompt  (command line). ... For the shell process you're in, /dev/tty is the terminal you are now using.
 
 
 ### 3. What are Linux Signals?
