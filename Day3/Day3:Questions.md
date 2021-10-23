@@ -32,9 +32,9 @@ OR Specifies which packets the command filters based on the source of the packet
 
 ### Ques3. Why are rules added to the top?
 
-Ans.
+Ans.Packets that matched a rule in a chain could be directed to the DENY target. This target must be changed to DROP in iptables.There is no such command to swap two iptables rules. You can just delete and insert them into appropriate position.
 
-###Ques4. What type of rules can we add to the iptables?  
+### Ques4. What type of rules can we add to the iptables?  
 
 Ans.
     1. Delete Existing Rules
